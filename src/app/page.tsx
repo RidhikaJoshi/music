@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import StickyScrollSection from "@/components/StickyScroll";
+import GridBackgroundDemo from "@/components/grid";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
    <HeroSection/>
    <FeaturedCourses/>
    <StickyScrollSection/>
+   <GridBackgroundDemo/>
    </>
   );
 }
