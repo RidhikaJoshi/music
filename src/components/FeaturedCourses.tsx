@@ -20,7 +20,7 @@ interface Course {
 function FeaturedCourses() {
     const featuredCourses= courseData.courses.filter((course:Course)=>course.isFeatured)
   return (
-    <div className=" bg-gray-900 w-full min-h-[40rem] flex flex-col items-center justify-center gap-6">
+    <div className=" bg-gray-900 w-full min-h-[40rem] flex flex-col items-center justify-center gap-6 p-8">
         <p className="mt-3 text-center font-semibold text-teal-600 text-base uppercase">Featured Courses</p>
         <p className="mt-2 text-3xl font-extrabold text-white sm:text-4xl">Learn With the Best</p>
         
