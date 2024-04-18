@@ -3,6 +3,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import StickyScrollSection from "@/components/StickyScroll";
 import GridBackgroundDemo from "@/components/grid";
 import CardHoverEffect from "@/components/UpcomingWebinars";
+import AnimatedTooltipAndWavyBackground from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
    <StickyScrollSection/>
    <GridBackgroundDemo/>
    <CardHoverEffect/>
+   <AnimatedTooltipAndWavyBackground/>
    </>
   );
 }
