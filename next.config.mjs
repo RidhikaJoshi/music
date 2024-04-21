@@ -6,6 +6,7 @@ const nextConfig = {
 			"res.cloudinary.com",
 			"cdn.pixabay.com",
 			"cdn.statically.io",
+			"images.pexels.com",
 		],
 	},
 };
